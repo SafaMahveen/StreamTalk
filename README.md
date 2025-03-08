@@ -20,6 +20,7 @@ Author - Safa Mahveen
 - Once connected, the client and server exchange messages in real-time using `DataInputStream` and `DataOutputStream`.
 - The messages are displayed in a custom UI using **Java Swing**.
 
+![User Interface](./images/CHAT_APPLICATION_DEMO_IMAGE.png)
 ## Technologies Used
 - Java (Swing for UI, Sockets for networking)
 - AWT (Abstract Window Toolkit) for layout and event handling
