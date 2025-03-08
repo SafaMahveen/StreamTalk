@@ -98,7 +98,6 @@ public class Server implements ActionListener{
         right.add(p2,BorderLayout.LINE_END);
         vertical.add(right);
         vertical.add(Box.createVerticalStrut(15));
-
         panel2.add(vertical,BorderLayout.PAGE_START);
         dout.writeUTF(chat);
         text.setText("");
@@ -119,10 +118,10 @@ public class Server implements ActionListener{
         output.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
         if (isSender)
         {
-            output.setBackground(new Color(173, 216, 230)); // Light Blue for Sent Messages
+            output.setBackground(new Color(173, 216, 230)); 
             output.setBorder(new EmptyBorder(15, 15, 15, 50));
         } else {
-            output.setBackground(new Color(255, 204, 102)); // Light Orange for Received Messages
+            output.setBackground(new Color(255, 204, 102)); 
             output.setBorder(new EmptyBorder(15, 15, 15, 50));
         }
         
